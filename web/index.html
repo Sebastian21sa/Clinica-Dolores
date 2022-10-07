@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Consultor de salud</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#87CEEB">
+        <h1>BIENVENIDO A TU CONSULTOR DE LA SALUD</h1>
+        <img src="https://w1.pngwing.com/pngs/896/902/png-transparent-patient-hospital-health-care-clinic-physician-doctors-office-medicine-nursing.png"
+             width="400" height="200">
+        <br><h3>Vamos a seleccionar un metodo de busqueda para ti</h3>
+        <form action="PaginaDestino.jsp" method ="POST">
+            <p> <select id="id" name="informacion">
+            <option value="1">Paciente</option>
+            <option value="2">Centro Medico</option>
+            <option value="3">Doctor</option>
+        </select>
+            </p>
+            <input type="submit" value="Comencemos">
+        </form>
+    </body>
+</html>
