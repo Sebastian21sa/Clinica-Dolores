@@ -8,7 +8,7 @@ package paquetico;
  *
  * @author Sebastian Sanchez
  */
-public final class Paciente extends Persona {
+public class Paciente extends Persona {
 
     
     private String centroMedico;
@@ -28,5 +28,13 @@ public final class Paciente extends Persona {
                 "\nMotivo Consulta: "+getMotivoConsulta()+
                 "\nDoctor: "+doctor+
                 "\nfecha: "+getFecha());
+    }
+
+    public String getCentroMedico() {
+        return centroMedico;
+    }
+
+    public String getDoctor() {
+        return doctor;
     }
 }

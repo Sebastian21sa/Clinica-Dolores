@@ -8,7 +8,7 @@ package paquetico;
  *
  * @author Sebastian Sanchez
  */
-public final class CentroMedico extends Persona {
+public final class CentroMedico extends Persona{
     private String ips;
 
     public String getIps() {

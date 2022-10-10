@@ -26,7 +26,7 @@
             c1.imprimir();}
             if(consulta==3){
             Doctor d1= new Doctor("Carlos","Gusman");
-            d1.notify();}
+            d1.imprimir();}
         %>
     </body>
 </html>

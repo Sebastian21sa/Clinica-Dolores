@@ -8,7 +8,7 @@ package paquetico;
  *
  * @author Sebastian Sanchez
  */
-abstract class Persona {
+abstract public class Persona {
 
     private String nomb1;
     private String apelli1;
@@ -33,7 +33,6 @@ abstract class Persona {
     public String getApelli1() {
         return apelli1;
     }
-    public void mostrar(){}
 
     public String getSexo() {
         return sexo;
